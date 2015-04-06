@@ -4,11 +4,11 @@
 import pyglet
 from pyglet import gl
 
-from widgets import Widget, Control, Label
-from button import Button
-from frame import Wrapper, Frame
-from layout import GetRelativePoint, ANCHOR_CENTER
-from layout import VerticalLayout, HorizontalLayout
+from .widgets import Widget, Control, Label
+from .button import Button
+from .frame import Wrapper, Frame
+from .layout import GetRelativePoint, ANCHOR_CENTER
+from .layout import VerticalLayout, HorizontalLayout
 
 class DialogEventManager(Control):
     def __init__(self):
