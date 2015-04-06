@@ -14,7 +14,7 @@
 
 import pyglet
 from pyglet import gl
-from override import KyttenLabel
+from .override import KyttenLabel
 
 class Widget:
     """
